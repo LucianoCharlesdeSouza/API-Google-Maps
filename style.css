@@ -1,0 +1,154 @@
+* { margin: 0; padding: 0; border: 0 }
+body { background-color: #f3f3f3; }
+legend { display: none }
+
+container { 
+    width: 960px; 
+    margin: 1% auto;
+    overflow: hidden;
+}
+
+
+h1 { 
+    font: 25px 'Open Sans', Arial; 
+    text-align: center; 
+    color: #006666; 
+    text-shadow: 2px 2px 0 #ccc; 
+    margin-bottom: 20px; 
+    letter-spacing: -0.5px
+}
+
+.campos {
+    width: 740px; 
+    margin: 0 auto 15px; 
+    overflow: hidden; 
+}
+
+.campos label { 
+    background: #006666; 
+    border-radius: 6px 0 0 6px; 
+    color: #f0f0f0; 
+    cursor: pointer; 
+    display: block; 
+    height: 20px; 
+    float: left; 
+    font: 15px 'Open Sans',Arial;
+    padding: 7px 13px;
+    width: 70px;
+}
+
+.campos input[type="text"] { 
+    background: #FFF;
+    color: #666;
+    display: block;
+    float: left;
+    font: 15px 'Open Sans',Arial; 
+    height: 14px;
+    padding: 9px;
+    width: 470px; 
+}
+#txtEndereco{
+    border: 1px solid #006666;
+}
+
+.campos input[type="button"] { 
+    background: #006666; 
+    border-radius: 0 6px 6px 0;
+    color: #FFF;
+    cursor: pointer;
+    height: 34px;
+    font: 15px 'Open Sans',Arial;
+    padding: 2px 13px 6px;
+    width: 150px;
+
+    -webkit-transition: background .2s ease-in;
+    -moz-transition: background .2s ease-in;
+    -ms-transition: background .2s ease-in;
+    -o-transition: background .2s ease-in;
+    transition: background .2s ease-in;
+}
+
+.campos input[type="button"]:hover { background: #009999 }
+
+#mapa { 
+    width: 720px;
+    height: 340px;
+    border: 6px solid #006666;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0 #ccc; 
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background: #006666; 
+    border-radius: 6px;
+    color: #FFF;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    font: 20px 'Open Sans',Arial;
+    padding: 7.5px 15px;
+    width: 720px;
+
+    -webkit-transition: background .2s ease-in;
+    -moz-transition: background .2s ease-in;
+    -ms-transition: background .2s ease-in;
+    -o-transition: background .2s ease-in;
+    transition: background .2s ease-in;
+}
+
+input[type="submit"]:hover { background: #009999 }
+
+.latlong{
+    height: 34px;
+    width: 720px;
+    margin: 0 auto;
+}
+#txtLatitude,#txtLongitude{
+    background: #FFF;
+    border: 1px solid #006666;
+    color: #666;
+    display: block;
+    font: 15px 'Open Sans',Arial; 
+    height: 14px;
+    padding: 9px;
+    width: 150px;
+    margin-top: 10px;
+}
+#txtLatitude{float: left}
+#txtLongitude{float: right}
+a{
+    background: #006666;
+    border: 1px solid #006666;
+    color: #fff;
+    font: 15px 'Open Sans',Arial; 
+    padding: 9px;
+    width: 720px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* =============== Estilos do autocomplete =============== */
+.ui-autocomplete { 
+    background: #006666; 
+    border-top: 1px solid #ccc;
+    cursor: pointer; 
+    font: 15px 'Open Sans',Arial;
+    margin-left: 3px;
+    width: 490px !important;
+    position: fixed;
+}
+
+.ui-autocomplete .ui-menu-item { 
+    list-style: none outside none;
+    padding: 7px 0 9px 10px;
+}
+
+.ui-autocomplete .ui-menu-item:hover { background: #009999}
+
+.ui-autocomplete .ui-corner-all { 
+    color: #fff !important;
+    display: block;
+}
