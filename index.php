@@ -8,10 +8,11 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" type="text/css" rel="stylesheet" />
         <link href="style.css" type="text/css" rel="stylesheet" />
 
-        <script src="https://maps.googleapis.com/maps/api/js?key=<?php echo $key; ?>" async defer></script>
-
         <script type="text/javascript" src="jquery.min.js"></script>
+
         <script type="text/javascript" src="mapa.js"></script>
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=<?php echo $key; ?>&callback=initialize" async defer></script>
         
         <script type="text/javascript" src="jquery-ui.custom.min.js"></script>
     </head>
